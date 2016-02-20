@@ -14,16 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/roots_package/Roots.java</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/cobertura-2.1.1/projects/roots/src/roots_package/Roots.java</locationURI>
-		</link>
-		<link>
-			<name>src/roots_package/RootsTest.java</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/cobertura-2.1.1/projects/roots/src/roots_package/RootsTest.java</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
