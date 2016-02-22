@@ -1,8 +1,7 @@
 package roots_package;
 	/** Find the two roots of ax^2 + bx + c,
 	 * that is, the values of x for which the result is 0. 3
-	 * @author Pasha
-	 *
+	 * @author psadeghian
 	 */
 
 public class Roots {
