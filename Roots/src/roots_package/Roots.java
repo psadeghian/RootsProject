@@ -1,7 +1,7 @@
 package roots_package;
 	/** Find the two roots of ax^2 + bx + c,
 	 * that is, the values of x for which the result is 0. 3
-	 * @author psadeghian
+	 * @author psadeghian and annasandifer
 	 */
 
 public class Roots {
@@ -17,7 +17,7 @@ public class Roots {
           if (q > 0 && a!=0) {
         	  // If b^2 > 4ac, there are two distinct roots
               num_roots = 2;
-              r=(double) Math.sqrt(q) ;
+              r = (double)Math.sqrt(q) ;
               root_one = ((0-b) + r)/(2*a);
               root_two = ((0-b) - r)/(2*a);
           } else if(q==0) { // (BUG HERE)
@@ -36,11 +36,12 @@ public class Roots {
    public double first_root() { return root_one; }
    public double second_root() { return root_two; }
 
-   public static void main(String[] args){
+/**   public static void main(String[] args){
 		Roots roots = new Roots(2.33,3.323,4.2323);
 		System.out.println("Pasha is great!");
 		System.out.println(roots.toString());
    }
+*/
 }
 
 

@@ -5,6 +5,7 @@ import junit.framework.TestCase;
  * Created by SandiferAV on 2/19/2016.
  * Edited by psadeghian on 2/21/2016
  */
+
 public class NullInputTest extends TestCase {
 
     private int valueA;
