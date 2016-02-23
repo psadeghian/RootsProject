@@ -3,16 +3,16 @@ import junit.framework.TestCase;
 
 /**
  * Created by SandiferAV on 2/19/2016.
- * Edited by psadeghian.
+ * Edited by psadeghian and annasandifer.
  */
 
-public class NullInputTest extends TestCase {
+public class LineNineteenTest extends TestCase {
 
     private int valueA;
     private int valueB;
     private int valueC;
 
-    public NullInputTest(String testName) {
+    public LineNineteenTest(String testName) {
         super(testName);
     }
     protected void setUp() throws Exception {
@@ -35,14 +35,14 @@ public class NullInputTest extends TestCase {
         assertEquals(num_roots, num);
     }
     public void testRootOne () {
-        double root = 0;
+        double root = -1;
         Roots roots = new Roots(valueA,valueB,valueC);
         //Roots.getRoots(valueA,valueB,valueC);
         double root_one = roots.first_root();
         assertEquals(root,root_one);
     }
     public void testRootTwo () {
-        double root = 0;
+        double root = -1;
         Roots roots = new Roots(valueA,valueB,valueC);
         //Roots.getRoots(valueA,valueB,valueC);
         double root_two = roots.second_root();

@@ -1,13 +1,13 @@
 <html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Unit Test Results: roots_package.NullInputTest</title>
+<title>Unit Test Results: roots_package.LineNineteenTest</title>
 <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
 <script type="text/javascript" language="JavaScript">
         var TestCases = new Array();
         var cur;
         
-    cur = TestCases['roots_package.NullInputTest'] = new Array();
+    cur = TestCases['roots_package.LineNineteenTest'] = new Array();
     
         cur['ant.core.lib'] = '/Users/Pasha/ant/lib/ant.jar';
     
@@ -143,7 +143,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeBig';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner roots_package.NullInputTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Pasha/cobertura-2.1.1/projects/roots/reports/junit-xml/TEST-roots_package.NullInputTest.xml crashfile=/Users/Pasha/cobertura-2.1.1/projects/roots/junitvmwatcher8220182674735032154.properties propsfile=/Users/Pasha/cobertura-2.1.1/projects/roots/junit3048892273422645949.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner roots_package.LineNineteenTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Pasha/cobertura-2.1.1/projects/roots/reports/junit-xml/TEST-roots_package.LineNineteenTest.xml crashfile=/Users/Pasha/cobertura-2.1.1/projects/roots/junitvmwatcher4499349586575167994.properties propsfile=/Users/Pasha/cobertura-2.1.1/projects/roots/junit1740618416172976590.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -202,13 +202,13 @@
 </tr>
 </table>
 <hr size="1">
-<h3>Class roots_package.NullInputTest</h3>
+<h3>Class roots_package.LineNineteenTest</h3>
 <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
 <tr valign="top" class="Failure">
-<td><a title="Display all tests" href="1_NullInputTest.html">NullInputTest</a></td><td><a title="Display all tests" href="1_NullInputTest.html">3</a></td><td>0</td><td><a title="Display only failures" href="1_NullInputTest-fails.html">3</a></td><td>0</td><td>0.170</td><td>2016-02-22T07:49:49</td><td>Pashas-Mac.local</td>
+<td><a title="Display all tests" href="0_LineNineteenTest.html">LineNineteenTest</a></td><td><a title="Display all tests" href="0_LineNineteenTest.html">3</a></td><td>0</td><td><a title="Display only failures" href="0_LineNineteenTest-fails.html">3</a></td><td>0</td><td>0.226</td><td>2016-02-23T02:00:44</td><td>Pashas-Mac.local</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -219,31 +219,29 @@
 <tr valign="top" class="Failure">
 <td><a name="testNumRoots"></a>testNumRoots</td><td>Failure</td><td>expected:&lt;0&gt; but was:&lt;1&gt;<br>
 <br>
-<code>junit.framework.AssertionFailedError: expected:&lt;0&gt; but was:&lt;1&gt;<br>	at roots_package.NullInputTest.testNumRoots(NullInputTest.java:35)<br>
-</code></td><td>0.125</td>
+<code>junit.framework.AssertionFailedError: expected:&lt;0&gt; but was:&lt;1&gt;<br>	at roots_package.LineNineteenTest.testNumRoots(LineNineteenTest.java:35)<br>
+</code></td><td>0.168</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a name="testRootOne"></a>testRootOne</td><td>Failure</td><td>expected:&lt;0.0&gt; but was:&lt;NaN&gt;<br>
+<td><a name="testRootOne"></a>testRootOne</td><td>Failure</td><td>expected:&lt;-1.0&gt; but was:&lt;NaN&gt;<br>
 <br>
-<code>junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;NaN&gt;<br>
-<br>	at roots_package.NullInputTest.testRootOne(NullInputTest.java:42)<br>
+<code>junit.framework.AssertionFailedError: expected:&lt;-1.0&gt; but was:&lt;NaN&gt;<br>	at roots_package.LineNineteenTest.testRootOne(LineNineteenTest.java:42)<br>
 </code></td><td>0.002</td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a name="testRootTwo"></a>testRootTwo</td><td>Failure</td><td>expected:&lt;0.0&gt; but was:&lt;NaN&gt;<br>
+<td><a name="testRootTwo"></a>testRootTwo</td><td>Failure</td><td>expected:&lt;-1.0&gt; but was:&lt;NaN&gt;<br>
 <br>
-<code>junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;NaN&gt;<br>
-<br>	at roots_package.NullInputTest.testRootTwo(NullInputTest.java:49)<br>
-</code></td><td>0.000</td>
+<code>junit.framework.AssertionFailedError: expected:&lt;-1.0&gt; but was:&lt;NaN&gt;<br>	at roots_package.LineNineteenTest.testRootTwo(LineNineteenTest.java:49)<br>
+</code></td><td>0.001</td>
 </tr>
 </table>
 <div class="Properties">
-<a href="javascript:displayProperties('roots_package.NullInputTest');">
+<a href="javascript:displayProperties('roots_package.LineNineteenTest');">
                     Properties &raquo;
                 </a>
 </div>
 <div class="Properties">
-<a href="./1_NullInputTest-out.html">
+<a href="./0_LineNineteenTest-out.html">
                         System.out &raquo;
                     </a>
 </div>
