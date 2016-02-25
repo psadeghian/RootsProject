@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="1.0" branch-rate="0.8333333333333334" lines-covered="18" lines-valid="18" branches-covered="5" branches-valid="6" complexity="1.75" version="2.1.1" timestamp="1456192851449">
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="18" lines-valid="18" branches-covered="6" branches-valid="6" complexity="1.75" version="2.1.1" timestamp="1456362510337">
 	<sources>
 		<source>src</source>
 	</sources>
 	<packages>
-		<package name="roots_package" line-rate="1.0" branch-rate="0.8333333333333334" complexity="1.75">
+		<package name="roots_package" line-rate="1.0" branch-rate="1.0" complexity="1.75">
 			<classes>
-				<class name="roots_package.Roots" filename="roots_package/Roots.java" line-rate="1.0" branch-rate="0.8333333333333334" complexity="1.75">
+				<class name="roots_package.Roots" filename="roots_package/Roots.java" line-rate="1.0" branch-rate="1.0" complexity="1.75">
 					<methods>
-						<method name="&lt;init&gt;" signature="(DDD)V" line-rate="1.0" branch-rate="0.8333333333333334" complexity="0">
+						<method name="&lt;init&gt;" signature="(DDD)V" line-rate="1.0" branch-rate="1.0" complexity="0">
 							<lines>
-								<line number="11" hits="12" branch="false"/>
-								<line number="16" hits="12" branch="false"/>
-								<line number="17" hits="12" branch="true" condition-coverage="75% (3/4)">
+								<line number="11" hits="15" branch="false"/>
+								<line number="16" hits="15" branch="false"/>
+								<line number="17" hits="15" branch="true" condition-coverage="100% (4/4)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100%"/>
-										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
 									</conditions>
 								</line>
 								<line number="19" hits="3" branch="false"/>
 								<line number="20" hits="3" branch="false"/>
 								<line number="21" hits="3" branch="false"/>
 								<line number="22" hits="3" branch="false"/>
-								<line number="23" hits="9" branch="true" condition-coverage="100% (2/2)">
+								<line number="23" hits="12" branch="true" condition-coverage="100% (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100%"/>
 									</conditions>
@@ -32,42 +32,42 @@
 								<line number="25" hits="6" branch="false"/>
 								<line number="26" hits="6" branch="false"/>
 								<line number="27" hits="6" branch="false"/>
-								<line number="30" hits="3" branch="false"/>
-								<line number="31" hits="3" branch="false"/>
-								<line number="32" hits="3" branch="false"/>
-								<line number="34" hits="12" branch="false"/>
+								<line number="30" hits="6" branch="false"/>
+								<line number="31" hits="6" branch="false"/>
+								<line number="32" hits="6" branch="false"/>
+								<line number="34" hits="15" branch="false"/>
 							</lines>
 						</method>
 						<method name="first_root" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
 							<lines>
-								<line number="36" hits="4" branch="false"/>
+								<line number="36" hits="5" branch="false"/>
 							</lines>
 						</method>
 						<method name="num_roots" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
 							<lines>
-								<line number="35" hits="4" branch="false"/>
+								<line number="35" hits="5" branch="false"/>
 							</lines>
 						</method>
 						<method name="second_root" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
 							<lines>
-								<line number="37" hits="4" branch="false"/>
+								<line number="37" hits="5" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
-						<line number="11" hits="12" branch="false"/>
-						<line number="16" hits="12" branch="false"/>
-						<line number="17" hits="12" branch="true" condition-coverage="75% (3/4)">
+						<line number="11" hits="15" branch="false"/>
+						<line number="16" hits="15" branch="false"/>
+						<line number="17" hits="15" branch="true" condition-coverage="100% (4/4)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100%"/>
-								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
 							</conditions>
 						</line>
 						<line number="19" hits="3" branch="false"/>
 						<line number="20" hits="3" branch="false"/>
 						<line number="21" hits="3" branch="false"/>
 						<line number="22" hits="3" branch="false"/>
-						<line number="23" hits="9" branch="true" condition-coverage="100% (2/2)">
+						<line number="23" hits="12" branch="true" condition-coverage="100% (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100%"/>
 							</conditions>
@@ -75,13 +75,13 @@
 						<line number="25" hits="6" branch="false"/>
 						<line number="26" hits="6" branch="false"/>
 						<line number="27" hits="6" branch="false"/>
-						<line number="30" hits="3" branch="false"/>
-						<line number="31" hits="3" branch="false"/>
-						<line number="32" hits="3" branch="false"/>
-						<line number="34" hits="12" branch="false"/>
-						<line number="35" hits="4" branch="false"/>
-						<line number="36" hits="4" branch="false"/>
-						<line number="37" hits="4" branch="false"/>
+						<line number="30" hits="6" branch="false"/>
+						<line number="31" hits="6" branch="false"/>
+						<line number="32" hits="6" branch="false"/>
+						<line number="34" hits="15" branch="false"/>
+						<line number="35" hits="5" branch="false"/>
+						<line number="36" hits="5" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
 					</lines>
 				</class>
 			</classes>
